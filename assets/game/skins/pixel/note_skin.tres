@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="NoteSkin" format=3 uid="uid://pv1ounxci6y8"]
+
+[ext_resource type="Script" uid="uid://dfdr435gif8gk" path="res://scripts/resources/note_skin.gd" id="1_3wmws"]
+[ext_resource type="SpriteFrames" uid="uid://k4nxchq8jovk" path="res://assets/game/skins/pixel/arrows.res" id="1_dt0y4"]
+
+[resource]
+script = ExtResource("1_3wmws")
+strum_frames = ExtResource("1_dt0y4")
+strum_filter = 1
+strum_scale = Vector2(6, 6)
+note_frames = ExtResource("1_dt0y4")
+note_filter = 1
+note_scale = Vector2(6, 6)
+sustain_size = 54.0
+sustain_tail_size = 54.0
+splash_filter = 1
+splash_colors = Array[Color]([Color(0.8862745, 0.4627451, 1, 1), Color(0.23921569, 0.7921569, 1, 1), Color(0.44313726, 0.8901961, 0, 1), Color(1, 0.53333336, 0.30588236, 1)])
+metadata/_custom_type_script = "uid://dfdr435gif8gk"

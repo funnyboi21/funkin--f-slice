@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="HUDSkin" format=3 uid="uid://b50qb5a7wlrmn"]
+
+[ext_resource type="AudioStream" uid="uid://cdx006xagoh7x" path="res://assets/menus/pause_menu/pico_theme.ogg" id="1_jafyk"]
+[ext_resource type="Script" uid="uid://bwjjpqxupvxcc" path="res://scripts/resources/hud_skin.gd" id="1_tmgmm"]
+[ext_resource type="AudioStream" uid="uid://vusu7c2ire01" path="res://assets/game/skins/default/countdown/3.ogg" id="3_hmnrq"]
+[ext_resource type="AudioStream" uid="uid://dj08aj6avwys5" path="res://assets/game/skins/default/countdown/2.ogg" id="4_qgq13"]
+[ext_resource type="AudioStream" uid="uid://cvne10g6br5tx" path="res://assets/game/skins/default/countdown/1.ogg" id="5_02xq5"]
+[ext_resource type="AudioStream" uid="uid://b2d2bpdv1aaa6" path="res://assets/game/skins/default/countdown/go.ogg" id="6_2bn8x"]
+[ext_resource type="Texture2D" uid="uid://cd4erocsrgekg" path="res://assets/game/skins/default/countdown/ready.png" id="7_xiy2o"]
+[ext_resource type="Texture2D" uid="uid://c70k6xe0qbuac" path="res://assets/game/skins/default/countdown/set.png" id="8_sm4mk"]
+[ext_resource type="Texture2D" uid="uid://cgkt2ctlovm34" path="res://assets/game/skins/default/countdown/go.png" id="9_q4gaf"]
+
+[resource]
+script = ExtResource("1_tmgmm")
+countdown_textures = Array[Texture2D]([null, ExtResource("7_xiy2o"), ExtResource("8_sm4mk"), ExtResource("9_q4gaf")])
+countdown_sounds = Array[AudioStream]([ExtResource("3_hmnrq"), ExtResource("4_qgq13"), ExtResource("5_02xq5"), ExtResource("6_2bn8x")])
+pause_music = ExtResource("1_jafyk")
+metadata/_custom_type_script = "uid://bwjjpqxupvxcc"
