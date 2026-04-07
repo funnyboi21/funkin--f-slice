@@ -1,0 +1,59 @@
+[gd_scene format=3 uid="uid://do2cyfo55xrll"]
+
+[ext_resource type="Texture2D" uid="uid://badgt4sg8qqu4" path="res://assets/images/title-screen-text/spritemap1.png" id="1_qjxmy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s3jib"]
+atlas = ExtResource("1_qjxmy")
+region = Rect2(0, 0, 1490, 85)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_drg7x"]
+atlas = ExtResource("1_qjxmy")
+region = Rect2(0, 85, 1490, 85)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bryyt"]
+atlas = ExtResource("1_qjxmy")
+region = Rect2(0, 170, 1490, 85)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a2kpm"]
+atlas = ExtResource("1_qjxmy")
+region = Rect2(0, 255, 1490, 85)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tfjpm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s3jib")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s3jib")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_drg7x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bryyt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a2kpm")
+}],
+"loop": true,
+"name": &"pressed",
+"speed": 5.0
+}]
+
+[node name="title" type="Node2D" unique_id=601916941]
+
+[node name="polygon_2d" type="Polygon2D" parent="." unique_id=1113204415]
+position = Vector2(0.86697006, 0.6904764)
+scale = Vector2(1.0279667, 1.1150794)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-2, -6, 1272, -3, 1292, 681, -31, 750)
+
+[node name="animated_sprite_2d" type="AnimatedSprite2D" parent="." unique_id=361352351]
+position = Vector2(875, 654)
+sprite_frames = SubResource("SpriteFrames_tfjpm")
