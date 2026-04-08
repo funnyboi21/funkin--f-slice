@@ -1,0 +1,60 @@
+[gd_scene format=3 uid="uid://b2tnjd20tabnx"]
+
+[ext_resource type="Script" uid="uid://dmm2r1ghhmsmu" path="res://source/funkin/play/GameplayScene.cs" id="1_j2ci6"]
+[ext_resource type="Script" uid="uid://drbhxkxnmm4q8" path="res://source/funkin/play/Strumline.cs" id="2_ire3d"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j2ci6"]
+bg_color = Color(1, 0, 0, 1)
+border_width_left = 9
+border_width_top = 9
+border_width_bottom = 9
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bo4ey"]
+bg_color = Color(0, 1, 0, 1)
+border_width_top = 9
+border_width_right = 9
+border_width_bottom = 9
+border_color = Color(0, 0, 0, 1)
+
+[node name="gameplay_state" type="Node2D" unique_id=940047989]
+script = ExtResource("1_j2ci6")
+
+[node name="Music" type="AudioStreamPlayer" parent="." unique_id=320900174]
+
+[node name="PlayerStrumline" type="Node2D" parent="." unique_id=173042841]
+script = ExtResource("2_ire3d")
+
+[node name="OpponentStrumline" type="Node2D" parent="." unique_id=991810674]
+script = ExtResource("2_ire3d")
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=498256109]
+
+[node name="HealthBar" type="ProgressBar" parent="UI" unique_id=1621975715]
+anchors_preset = -1
+offset_left = 94.0
+offset_top = 629.0
+offset_right = 1146.0
+offset_bottom = 665.0
+theme_override_styles/background = SubResource("StyleBoxFlat_j2ci6")
+theme_override_styles/fill = SubResource("StyleBoxFlat_bo4ey")
+value = 50.0
+fill_mode = 1
+show_percentage = false
+
+[node name="ScoreLabel" type="Label" parent="UI" unique_id=2101906288]
+offset_left = 1013.0
+offset_top = 679.0
+offset_right = 1120.0
+offset_bottom = 702.0
+text = "Score: 000000"
+
+[node name="ComboLabel" type="Label" parent="UI" unique_id=1040714992]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -40.0
+offset_bottom = 23.0
+grow_horizontal = 0
+text = "240 X COMBO!"
+horizontal_alignment = 2

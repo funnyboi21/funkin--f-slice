@@ -14,7 +14,7 @@ config/name="Friday Night Funkin' F Slice"
 config/description="Friday Night Funkin' remade in Godot for extensibility and performance."
 config/version="0.0.1-Alpha/Rewrite"
 config/tags=PackedStringArray("2d")
-run/main_scene="uid://do2cyfo55xrll"
+run/main_scene="uid://b0hkmnastcv5y"
 config/quit_on_go_back=false
 config/features=PackedStringArray("4.6", "Forward Plus")
 boot_splash/bg_color=Color(0, 0, 0, 1)
@@ -30,8 +30,8 @@ general/ios/mix_with_others=true
 
 [autoload]
 
-Main="*uid://0ldtjxwivdlb"
 Animated_Hadrware_Cursor="*uid://dxmcmqjpur2d3"
+Main="*uid://qwhlirys3u4y"
 
 [debug]
 
