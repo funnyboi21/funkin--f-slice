@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://do2cyfo55xrll"]
 
 [ext_resource type="Texture2D" uid="uid://badgt4sg8qqu4" path="res://assets/images/title-screen-text/spritemap1.png" id="1_qjxmy"]
+[ext_resource type="SpriteFrames" uid="uid://cdod3hyv0bow3" path="res://assets/images/gfDanceTitle.res" id="1_s3jib"]
+[ext_resource type="SpriteFrames" uid="uid://ci50tekteq1ir" path="res://assets/images/logoBumpin.res" id="2_drg7x"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_s3jib"]
 atlas = ExtResource("1_qjxmy")
@@ -52,7 +54,21 @@ animations = [{
 position = Vector2(0.86697006, 0.6904764)
 scale = Vector2(1.0279667, 1.1150794)
 color = Color(0, 0, 0, 1)
-polygon = PackedVector2Array(-2, -6, 1272, -3, 1292, 681, -31, 750)
+polygon = PackedVector2Array(-2, -6, 1257.9521, -4.2064056, 1257.9521, 650.4555, -10.571325, 650.4555)
+
+[node name="animated_sprite_2d_2" type="AnimatedSprite2D" parent="." unique_id=1188800681]
+position = Vector2(912, 374)
+sprite_frames = ExtResource("1_s3jib")
+animation = &"gfDance"
+autoplay = "gfDance"
+frame_progress = 0.4870913
+
+[node name="animated_sprite_2d_3" type="AnimatedSprite2D" parent="." unique_id=1202218555]
+position = Vector2(359, 260)
+sprite_frames = ExtResource("2_drg7x")
+animation = &"logo bumpin"
+autoplay = "logo bumpin"
+frame_progress = 0.9827869
 
 [node name="animated_sprite_2d" type="AnimatedSprite2D" parent="." unique_id=361352351]
 position = Vector2(875, 654)

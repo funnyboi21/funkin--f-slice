@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="loading.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="loading export0000" x="50" y="568" width="222" height="69" frameX="0" frameY="-20" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0001" x="594" y="445" width="222" height="72" frameX="0" frameY="-17" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0002" x="594" y="185" width="222" height="84" frameX="0" frameY="-5" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0003" x="50" y="189" width="222" height="81" frameX="0" frameY="-8" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0004" x="594" y="567" width="222" height="70" frameX="0" frameY="-19" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0005" x="50" y="568" width="222" height="69" frameX="0" frameY="-20" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0006" x="50" y="568" width="222" height="69" frameX="0" frameY="-20" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0007" x="50" y="568" width="222" height="69" frameX="0" frameY="-20" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0008" x="50" y="320" width="222" height="74" frameX="0" frameY="-15" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0009" x="322" y="50" width="222" height="88" frameX="0" frameY="-1" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0010" x="594" y="50" width="222" height="85" frameX="0" frameY="-4" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0011" x="322" y="322" width="222" height="74" frameX="0" frameY="-15" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0012" x="322" y="446" width="222" height="71" frameX="0" frameY="-18" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0013" x="50" y="568" width="222" height="69" frameX="0" frameY="-20" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0014" x="594" y="319" width="222" height="76" frameX="0" frameY="-13" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0015" x="50" y="50" width="222" height="89"/>
+	<SubTexture name="loading export0016" x="322" y="188" width="222" height="84" frameX="0" frameY="-5" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0017" x="50" y="444" width="222" height="74" frameX="0" frameY="-15" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0018" x="322" y="567" width="222" height="71" frameX="0" frameY="-18" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0019" x="50" y="568" width="222" height="69" frameX="0" frameY="-20" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0020" x="50" y="568" width="222" height="69" frameX="0" frameY="-20" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0021" x="50" y="568" width="222" height="69" frameX="0" frameY="-20" frameWidth="222" frameHeight="89" rotated="false"/>
+	<SubTexture name="loading export0022" x="50" y="568" width="222" height="69" frameX="0" frameY="-20" frameWidth="222" frameHeight="89" rotated="false"/>
+</TextureAtlas>

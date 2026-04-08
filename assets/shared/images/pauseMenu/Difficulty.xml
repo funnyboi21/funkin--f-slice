@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Difficulty.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Difficulty Select0000" x="50" y="219" width="555" height="118" frameX="-1" frameY="0" frameWidth="556" frameHeight="119" rotated="false"/>
+	<SubTexture name="Difficulty Select0001" x="50" y="219" width="555" height="118" frameX="-1" frameY="0" frameWidth="556" frameHeight="119" rotated="false"/>
+	<SubTexture name="Difficulty Select0002" x="50" y="387" width="555" height="118" frameX="-1" frameY="0" frameWidth="556" frameHeight="119" rotated="false"/>
+	<SubTexture name="Difficulty Select0003" x="50" y="387" width="555" height="118" frameX="-1" frameY="0" frameWidth="556" frameHeight="119" rotated="false"/>
+	<SubTexture name="Difficulty Select0004" x="50" y="50" width="556" height="119"/>
+	<SubTexture name="Difficulty Select0005" x="50" y="50" width="556" height="119"/>
+	<SubTexture name="Difficulty Unselect0000" x="50" y="555" width="555" height="118"/>
+	<SubTexture name="Difficulty Unselect0001" x="50" y="555" width="555" height="118"/>
+	<SubTexture name="Difficulty Unselect0002" x="50" y="723" width="555" height="118"/>
+	<SubTexture name="Difficulty Unselect0003" x="50" y="723" width="555" height="118"/>
+	<SubTexture name="Difficulty Unselect0004" x="655" y="219" width="118" height="555" frameX="0" frameY="0" frameWidth="555" frameHeight="118" rotated="true"/>
+	<SubTexture name="Difficulty Unselect0005" x="655" y="219" width="118" height="555" frameX="0" frameY="0" frameWidth="555" frameHeight="118" rotated="true"/>
+</TextureAtlas>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ChartEditor.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ChartEditor Select0000" x="50" y="314" width="213" height="561" frameX="0" frameY="-1" frameWidth="561" frameHeight="215" rotated="true"/>
+	<SubTexture name="ChartEditor Select0001" x="50" y="314" width="213" height="561" frameX="0" frameY="-1" frameWidth="561" frameHeight="215" rotated="true"/>
+	<SubTexture name="ChartEditor Select0002" x="50" y="50" width="561" height="214" frameX="0" frameY="-1" frameWidth="561" frameHeight="215" rotated="false"/>
+	<SubTexture name="ChartEditor Select0003" x="50" y="50" width="561" height="214" frameX="0" frameY="-1" frameWidth="561" frameHeight="215" rotated="false"/>
+	<SubTexture name="ChartEditor Select0004" x="661" y="50" width="215" height="558" frameX="-1" frameY="0" frameWidth="561" frameHeight="215" rotated="true"/>
+	<SubTexture name="ChartEditor Select0005" x="661" y="50" width="215" height="558" frameX="-1" frameY="0" frameWidth="561" frameHeight="215" rotated="true"/>
+	<SubTexture name="ChartEditor Unselect0000" x="313" y="314" width="213" height="561" frameX="0" frameY="0" frameWidth="561" frameHeight="213" rotated="true"/>
+	<SubTexture name="ChartEditor Unselect0001" x="313" y="314" width="213" height="561" frameX="0" frameY="0" frameWidth="561" frameHeight="213" rotated="true"/>
+	<SubTexture name="ChartEditor Unselect0002" x="576" y="658" width="561" height="213"/>
+	<SubTexture name="ChartEditor Unselect0003" x="576" y="658" width="561" height="213"/>
+	<SubTexture name="ChartEditor Unselect0004" x="926" y="50" width="561" height="213"/>
+	<SubTexture name="ChartEditor Unselect0005" x="926" y="50" width="561" height="213"/>
+</TextureAtlas>

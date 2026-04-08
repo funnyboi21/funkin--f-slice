@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Exit.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Exit Select0000" x="50" y="240" width="138" height="342" frameX="-2" frameY="-1" frameWidth="346" frameHeight="140" rotated="true"/>
+	<SubTexture name="Exit Select0001" x="50" y="240" width="138" height="342" frameX="-2" frameY="-1" frameWidth="346" frameHeight="140" rotated="true"/>
+	<SubTexture name="Exit Select0002" x="50" y="50" width="344" height="140" frameX="-1" frameY="0" frameWidth="346" frameHeight="140" rotated="false"/>
+	<SubTexture name="Exit Select0003" x="50" y="50" width="344" height="140" frameX="-1" frameY="0" frameWidth="346" frameHeight="140" rotated="false"/>
+	<SubTexture name="Exit Select0004" x="444" y="50" width="139" height="346" frameX="0" frameY="-1" frameWidth="346" frameHeight="140" rotated="true"/>
+	<SubTexture name="Exit Select0005" x="444" y="50" width="139" height="346" frameX="0" frameY="-1" frameWidth="346" frameHeight="140" rotated="true"/>
+	<SubTexture name="Exit Unselect0000" x="238" y="240" width="138" height="342" frameX="0" frameY="0" frameWidth="342" frameHeight="138" rotated="true"/>
+	<SubTexture name="Exit Unselect0001" x="238" y="240" width="138" height="342" frameX="0" frameY="0" frameWidth="342" frameHeight="138" rotated="true"/>
+	<SubTexture name="Exit Unselect0002" x="426" y="446" width="342" height="138"/>
+	<SubTexture name="Exit Unselect0003" x="426" y="446" width="342" height="138"/>
+	<SubTexture name="Exit Unselect0004" x="633" y="50" width="138" height="342" frameX="0" frameY="0" frameWidth="342" frameHeight="138" rotated="true"/>
+	<SubTexture name="Exit Unselect0005" x="633" y="50" width="138" height="342" frameX="0" frameY="0" frameWidth="342" frameHeight="138" rotated="true"/>
+</TextureAtlas>

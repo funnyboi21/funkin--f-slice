@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Resume.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Resume Select0000" x="50" y="415" width="531" height="130" frameX="0" frameY="-1" frameWidth="532" frameHeight="133" rotated="false"/>
+	<SubTexture name="Resume Select0001" x="50" y="415" width="531" height="130" frameX="0" frameY="-1" frameWidth="532" frameHeight="133" rotated="false"/>
+	<SubTexture name="Resume Select0002" x="50" y="233" width="531" height="132" frameX="-1" frameY="0" frameWidth="532" frameHeight="133" rotated="false"/>
+	<SubTexture name="Resume Select0003" x="50" y="233" width="531" height="132" frameX="-1" frameY="0" frameWidth="532" frameHeight="133" rotated="false"/>
+	<SubTexture name="Resume Select0004" x="50" y="50" width="531" height="133" frameX="-1" frameY="0" frameWidth="532" frameHeight="133" rotated="false"/>
+	<SubTexture name="Resume Select0005" x="50" y="50" width="531" height="133" frameX="-1" frameY="0" frameWidth="532" frameHeight="133" rotated="false"/>
+	<SubTexture name="Resume Unselect0000" x="50" y="595" width="531" height="130"/>
+	<SubTexture name="Resume Unselect0001" x="50" y="595" width="531" height="130"/>
+	<SubTexture name="Resume Unselect0002" x="631" y="50" width="130" height="531" frameX="0" frameY="0" frameWidth="531" frameHeight="130" rotated="true"/>
+	<SubTexture name="Resume Unselect0003" x="631" y="50" width="130" height="531" frameX="0" frameY="0" frameWidth="531" frameHeight="130" rotated="true"/>
+	<SubTexture name="Resume Unselect0004" x="50" y="775" width="531" height="130"/>
+	<SubTexture name="Resume Unselect0005" x="50" y="775" width="531" height="130"/>
+</TextureAtlas>

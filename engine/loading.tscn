@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://7lhkwk5tvrox"]
+
+[ext_resource type="Texture2D" uid="uid://nl0kbeai1fes" path="res://assets/images/funkay.png" id="1_m5oy7"]
+[ext_resource type="SpriteFrames" uid="uid://0iuskdibyjnt" path="res://assets/images/loading.res" id="2_xkpj6"]
+
+[node name="Loading" type="Control" unique_id=1871370090]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="texture_rect" type="TextureRect" parent="." unique_id=1836069227]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_m5oy7")
+expand_mode = 1
+
+[node name="animated_sprite_2d" type="AnimatedSprite2D" parent="." unique_id=2049650150]
+position = Vector2(1155, 662)
+sprite_frames = ExtResource("2_xkpj6")
+animation = &"loading export"
+autoplay = "loading export"
+frame_progress = 0.5596475

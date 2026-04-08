@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Settings.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Settings Select0000" x="50" y="233" width="634" height="133" frameX="-1" frameY="0" frameWidth="636" frameHeight="133" rotated="false"/>
+	<SubTexture name="Settings Select0001" x="50" y="233" width="634" height="133" frameX="-1" frameY="0" frameWidth="636" frameHeight="133" rotated="false"/>
+	<SubTexture name="Settings Select0002" x="50" y="50" width="635" height="133" frameX="0" frameY="0" frameWidth="636" frameHeight="133" rotated="false"/>
+	<SubTexture name="Settings Select0003" x="50" y="50" width="635" height="133" frameX="0" frameY="0" frameWidth="636" frameHeight="133" rotated="false"/>
+	<SubTexture name="Settings Select0004" x="734" y="233" width="132" height="636" frameX="0" frameY="0" frameWidth="636" frameHeight="133" rotated="true"/>
+	<SubTexture name="Settings Select0005" x="734" y="233" width="132" height="636" frameX="0" frameY="0" frameWidth="636" frameHeight="133" rotated="true"/>
+	<SubTexture name="Settings Unselect0000" x="50" y="416" width="634" height="133"/>
+	<SubTexture name="Settings Unselect0001" x="50" y="416" width="634" height="133"/>
+	<SubTexture name="Settings Unselect0002" x="50" y="599" width="634" height="133"/>
+	<SubTexture name="Settings Unselect0003" x="50" y="599" width="634" height="133"/>
+	<SubTexture name="Settings Unselect0004" x="50" y="782" width="634" height="133"/>
+	<SubTexture name="Settings Unselect0005" x="50" y="782" width="634" height="133"/>
+</TextureAtlas>

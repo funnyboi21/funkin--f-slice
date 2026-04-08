@@ -1,0 +1,64 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dcfxasmow5bo8"]
+
+[ext_resource type="Texture2D" uid="uid://cptk0pe2sds88" path="res://assets/images/cursor/cursor-cell.png" id="1_hq7y4"]
+[ext_resource type="Texture2D" uid="uid://d2vpotjf6774q" path="res://assets/images/cursor/cursor-cross.png" id="2_7u170"]
+[ext_resource type="Texture2D" uid="uid://b2532w0dt23cf" path="res://assets/images/cursor/cursor-crosshair.png" id="3_5dsb2"]
+[ext_resource type="Texture2D" uid="uid://du5toc8d177x3" path="res://assets/images/cursor/cursor-grabbing.png" id="4_yeqgj"]
+[ext_resource type="Texture2D" uid="uid://83pmjcibpwox" path="res://assets/images/cursor/cursor-hourglass.png" id="5_m03h4"]
+[ext_resource type="Texture2D" uid="uid://bwc0tygs2l1lj" path="res://assets/images/cursor/cursor-default.png" id="6_en2cd"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_hq7y4")
+}],
+"loop": true,
+"name": &"Cell",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_7u170")
+}],
+"loop": true,
+"name": &"Cross",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_5dsb2")
+}],
+"loop": true,
+"name": &"Crosshair",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_yeqgj")
+}],
+"loop": true,
+"name": &"Grab",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_m03h4")
+}],
+"loop": true,
+"name": &"Hourglass",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_en2cd")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
