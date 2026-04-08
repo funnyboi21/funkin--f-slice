@@ -61,14 +61,14 @@ position = Vector2(912, 374)
 sprite_frames = ExtResource("1_s3jib")
 animation = &"gfDance"
 autoplay = "gfDance"
-frame_progress = 0.4870913
+frame_progress = 0.5701657
 
 [node name="animated_sprite_2d_3" type="AnimatedSprite2D" parent="." unique_id=1202218555]
 position = Vector2(359, 260)
 sprite_frames = ExtResource("2_drg7x")
 animation = &"logo bumpin"
 autoplay = "logo bumpin"
-frame_progress = 0.9827869
+frame_progress = 0.06586126
 
 [node name="animated_sprite_2d" type="AnimatedSprite2D" parent="." unique_id=361352351]
 position = Vector2(875, 654)
