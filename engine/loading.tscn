@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://7lhkwk5tvrox"]
 
 [ext_resource type="Texture2D" uid="uid://nl0kbeai1fes" path="res://assets/images/funkay.png" id="1_m5oy7"]
+[ext_resource type="Script" uid="uid://wcgkvc5g3plx" path="res://engine/Loading.cs" id="1_stjo1"]
 [ext_resource type="SpriteFrames" uid="uid://0iuskdibyjnt" path="res://assets/images/loading.res" id="2_xkpj6"]
 
 [node name="Loading" type="Control" unique_id=1871370090]
@@ -10,6 +11,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_stjo1")
 
 [node name="texture_rect" type="TextureRect" parent="." unique_id=1836069227]
 layout_mode = 1

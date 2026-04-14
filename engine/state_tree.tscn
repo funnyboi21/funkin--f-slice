@@ -1,3 +1,20 @@
 [gd_scene format=3 uid="uid://b0hkmnastcv5y"]
 
+[ext_resource type="Script" uid="uid://cf3wgqahjrmyt" path="res://engine/StateTree.cs" id="1_26wqk"]
+[ext_resource type="PackedScene" uid="uid://7lhkwk5tvrox" path="res://engine/loading.tscn" id="2_0bp6o"]
+
 [node name="StateTree" type="Node" unique_id=786577052]
+script = ExtResource("1_26wqk")
+
+[node name="Main" type="Node" parent="." unique_id=608081657]
+
+[node name="Music" type="AudioStreamPlayer" parent="Main" unique_id=1190464484]
+bus = &"Music"
+
+[node name="Sound" type="AudioStreamPlayer" parent="Main" unique_id=1390705228]
+bus = &"Sound"
+
+[node name="Loading" parent="." unique_id=1871370090 instance=ExtResource("2_0bp6o")]
+visible = false
+offset_right = -1280.0
+offset_bottom = -720.0

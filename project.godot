@@ -24,7 +24,7 @@ boot_splash/minimum_display_time=25
 
 [audio]
 
-buses/default_bus_layout="uid://dfk8owu2dipxx"
+buses/default_bus_layout="uid://bkcbcoxp8wsaa"
 general/ios/session_category=3
 general/ios/mix_with_others=true
 
